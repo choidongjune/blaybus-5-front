@@ -4,4 +4,4 @@ COMMIT_MESSAGE=$(cat "$COMMIT_MESSAGE_FILE")
 echo "🐶 commit message check..."
 
 
-pnpm commitlint --edit "$1"
+yarn commitlint --edit "$1"
